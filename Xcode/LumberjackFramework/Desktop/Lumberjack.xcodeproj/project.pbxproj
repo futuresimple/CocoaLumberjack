@@ -10,7 +10,6 @@
 		DA3130A41844B4CF002E953B /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3130A21844B4CF002E953B /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA3130A51844B4CF002E953B /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3130A31844B4CF002E953B /* DDMultiFormatter.m */; };
 		DCB3185514EB418E001CFBEE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3185414EB418E001CFBEE /* Cocoa.framework */; };
-		DCB3185F14EB418E001CFBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB3185D14EB418E001CFBEE /* InfoPlist.strings */; };
 		DCB318B614ED6BAB001CFBEE /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB318A614ED6BAB001CFBEE /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCB318B714ED6BAB001CFBEE /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB318A714ED6BAB001CFBEE /* DDAbstractDatabaseLogger.m */; };
 		DCB318B814ED6BAB001CFBEE /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB318A814ED6BAB001CFBEE /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,11 +26,8 @@
 		DCB318C314ED6BAB001CFBEE /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB318B414ED6BAB001CFBEE /* DDDispatchQueueLogFormatter.m */; };
 		DCB318C514ED6BFD001CFBEE /* Lumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB3186114EB418E001CFBEE /* Lumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCB318CC14ED6C3B001CFBEE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3185414EB418E001CFBEE /* Cocoa.framework */; };
-		DCB318D214ED6C3B001CFBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB318D014ED6C3B001CFBEE /* InfoPlist.strings */; };
 		DCB318D414ED6C3B001CFBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB318D314ED6C3B001CFBEE /* main.m */; };
-		DCB318D814ED6C3B001CFBEE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DCB318D614ED6C3B001CFBEE /* Credits.rtf */; };
 		DCB318DB14ED6C3B001CFBEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB318DA14ED6C3B001CFBEE /* AppDelegate.m */; };
-		DCB318DE14ED6C3B001CFBEE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB318DC14ED6C3B001CFBEE /* MainMenu.xib */; };
 		DCB318E414ED6C61001CFBEE /* Lumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3185114EB418E001CFBEE /* Lumberjack.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +50,6 @@
 		DCB3185814EB418E001CFBEE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DCB3185914EB418E001CFBEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCB3185C14EB418E001CFBEE /* Lumberjack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lumberjack-Info.plist"; sourceTree = "<group>"; };
-		DCB3185E14EB418E001CFBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCB3186014EB418E001CFBEE /* Lumberjack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lumberjack-Prefix.pch"; sourceTree = "<group>"; };
 		DCB3186114EB418E001CFBEE /* Lumberjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lumberjack.h; sourceTree = "<group>"; };
 		DCB318A614ED6BAB001CFBEE /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = ../../../../Lumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
@@ -73,13 +68,10 @@
 		DCB318B414ED6BAB001CFBEE /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		DCB318CA14ED6C3B001CFBEE /* FmwkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FmwkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB318CF14ED6C3B001CFBEE /* FmwkTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FmwkTest-Info.plist"; sourceTree = "<group>"; };
-		DCB318D114ED6C3B001CFBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCB318D314ED6C3B001CFBEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCB318D514ED6C3B001CFBEE /* FmwkTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FmwkTest-Prefix.pch"; sourceTree = "<group>"; };
-		DCB318D714ED6C3B001CFBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		DCB318D914ED6C3B001CFBEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCB318DA14ED6C3B001CFBEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCB318DD14ED6C3B001CFBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				DCB3185C14EB418E001CFBEE /* Lumberjack-Info.plist */,
-				DCB3185D14EB418E001CFBEE /* InfoPlist.strings */,
 				DCB3186014EB418E001CFBEE /* Lumberjack-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -191,7 +182,6 @@
 			children = (
 				DCB318D914ED6C3B001CFBEE /* AppDelegate.h */,
 				DCB318DA14ED6C3B001CFBEE /* AppDelegate.m */,
-				DCB318DC14ED6C3B001CFBEE /* MainMenu.xib */,
 				DCB318CE14ED6C3B001CFBEE /* Supporting Files */,
 			);
 			path = FmwkTest;
@@ -201,10 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				DCB318CF14ED6C3B001CFBEE /* FmwkTest-Info.plist */,
-				DCB318D014ED6C3B001CFBEE /* InfoPlist.strings */,
 				DCB318D314ED6C3B001CFBEE /* main.m */,
 				DCB318D514ED6C3B001CFBEE /* FmwkTest-Prefix.pch */,
-				DCB318D614ED6C3B001CFBEE /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -280,7 +268,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 			);
 			mainGroup = DCB3184514EB418D001CFBEE;
 			productRefGroup = DCB3185214EB418E001CFBEE /* Products */;
@@ -298,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB3185F14EB418E001CFBEE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +292,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB318D214ED6C3B001CFBEE /* InfoPlist.strings in Resources */,
-				DCB318D814ED6C3B001CFBEE /* Credits.rtf in Resources */,
-				DCB318DE14ED6C3B001CFBEE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,41 +331,6 @@
 			targetProxy = DCB318E214ED6C43001CFBEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DCB3185D14EB418E001CFBEE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCB3185E14EB418E001CFBEE /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DCB318D014ED6C3B001CFBEE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCB318D114ED6C3B001CFBEE /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DCB318D614ED6C3B001CFBEE /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCB318D714ED6C3B001CFBEE /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		DCB318DC14ED6C3B001CFBEE /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCB318DD14ED6C3B001CFBEE /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DCB3186414EB418E001CFBEE /* Debug */ = {
